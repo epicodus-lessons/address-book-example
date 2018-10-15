@@ -49,7 +49,6 @@ Contact.prototype.fullName = function() {
 }
 
 // User Interface Logic ---------
-
 var addressBook = new AddressBook();
 
 $(document).ready(function() {
