@@ -1,6 +1,6 @@
 // Business Logic for AddressBook ---------
 function AddressBook() {
-  this.contacts = []
+  this.contacts = [],
   this.currentId = 0
 }
 
@@ -10,8 +10,8 @@ AddressBook.prototype.addContact = function(contact) {
 }
 
 AddressBook.prototype.assignId = function() {
-  this.currentId += 1
-  return this.currentId
+  this.currentId += 1;
+  return this.currentId;
 }
 
 AddressBook.prototype.findContact = function(id) {
