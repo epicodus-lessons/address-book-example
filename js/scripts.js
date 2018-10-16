@@ -61,7 +61,9 @@ function displayContactDetails(addressBookToDisplay) {
 };
 
 function attachContactListeners() {
-  
+  $("ul#contacts").on("click", "li", function() {
+    console.log("The id of this <li> is " + this.id + ".");
+  });
 };
 
 $(document).ready(function() {
